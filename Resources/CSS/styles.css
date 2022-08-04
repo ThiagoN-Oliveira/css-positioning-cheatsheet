@@ -1,0 +1,47 @@
+* {
+    background-color: silver;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+Color: Crimson;
+text-shadow: 7px -7px mistyrose;
+font-weight: bolder;
+}
+
+h2, p {
+color: salmon;
+font-style: italic;
+font-weight: bold;
+}
+
+h2 {
+    text-shadow: 7px -7px oldlace;
+}
+
+p {
+    text-align: right;
+}
+
+table {
+    border: 3px solid palevioletred;
+}
+
+thead{
+    background-color: antiquewhite;
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td {
+    border: 3px solid navajowhite;
+    font-style: italic;
+    color: salmon;
+}
+
+.firstColumn {
+    font-weight: bold;
+    color: palevioletred;
+    text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Resources\CSS\styles.css">
+        <title>CSS Positioning Reference</title>
+    </head>
+    <body>
+        <h1>CSS Positioning reference</h1>
+        <h2>Types of positioning in CSS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td class="firstColumn">Position</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="firstColumn">Static</td>
+                    <td>Static positioning is the default that every element gets. It just means "put the element into its normal position in the document flow — nothing special to see here."</td>
+                </tr>
+                <tr>
+                    <td class="firstColumn">Relative</td>
+                    <td>Relative positioning is very similar to static positioning, except that once the positioned element has taken its place in the normal flow, you can then modify its final position, including making it overlap other elements on the page(See other elements on the table below).</td>
+                </tr>
+                <tr>
+                    <td class="firstColumn">Absolute</td>
+                    <td>An absolutely positioned element no longer exists in the normal document flow. Instead, it sits on its own layer separate from everything else. This is very useful: it means that we can create isolated UI features that don't interfere with the layout of other elements on the page.</td>
+                </tr>
+                <tr>
+                    <td class="firstColumn">Fixed</td>
+                    <td>Fixed positioning works in exactly the same way as absolute positioning, with one key difference: whereas absolute positioning fixes an element in place relative to its nearest positioned ancestor (the initial containing block if there isn't one), fixed positioning usually fixes an element in place relative to the visible portion of the viewport.</td>
+                </tr>
+                <tr>
+                    <td class="firstColumn">Sticky</td>
+                    <td>Sticky positioning is somewhat newer than the others. This is basically a hybrid between relative and fixed position. It allows a positioned element to act like it's relatively positioned until it's scrolled to a certain threshold (e.g., 10px from the top of the viewport), after which it becomes fixed.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Other elements</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td class="firstColumn">Element</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="firstColumn">Top, Botton, Left, Right</td>
+                    <td>top, bottom, left, and right are used alongside position to specify exactly where to move the positioned element to. </td>
+                </tr>
+                <tr>
+                    <td class="firstColumn">z-index</td>
+                    <td>Web pages have a z-axis: an imaginary line that runs from the surface of your screen towards your face. Z-index values affect where positioned elements sit on that axis; positive values move them higher up the stack, negative values move them lower down the stack. By default, positioned elements all have a z-index of auto, which is effectively 0.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Web reference: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning#static_positioning">developer.mozilla.org</a><br> Created by: ThiagoN-Oliveira</p>
+    </body>
+</html>
